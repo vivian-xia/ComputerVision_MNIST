@@ -1,1 +1,7 @@
 # ComputerVision_MNIST
+
+An application of deep neural networks is in computer vision. To understand and implement a neural network in this application, this project will experiment using the MNIST data, a dataset of gray-scale handwritten digit images and its digit labels, from TensorFlow. The dataset provides a classification problem where each image should be classified to its corresponding class. A neural network will be built and revised using various techniques to observe and interpret the impact of hyperparameters, which, in turn, will help to evaluate which model best classifies these images.
+
+This project looks to explore the neural nets and how these structures work by building multiple dense neural networks for a classification problem. The focus will be on how the activating values from the hidden nodes produce important features used to discriminate between the classes. This factors into analyzing and visualizing the results to see how well each model did. Dimensional reduction is another useful technique that will be explored to build more efficient networks. Please refer to the report on the model experiments. 
+
+From the experiments, the “best” model based on test accuracy is Experiment 3’s model with a test accuracy of 0.98. Experiment 6, however, has a test accuracy of 0.97, so it also performans very well while having to train thirty times less parameters. Unlike Experiment 3, Experiment 6 does not overfit. Therefore, Experiment 6 is the recommended model for this classification problem. 
